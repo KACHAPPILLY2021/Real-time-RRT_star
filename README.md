@@ -44,7 +44,7 @@
 
 
 
-This project implements a real-time path-planning algorithm using RRT and variants, handling multiple-goal scenarios. The online tree rewiring strategy moves the tree root with the robot's position without discarding previous paths. The algorithm operates in a 2D environment with static obstacles, and the robot navigates while avoiding obstacles within a predefined radius to reach the goal positions. It's re-implemented for subsequent goals and obstacles.
+This project implements a real-time path-planning algorithm using RRT*, handling multiple-goal scenarios. The online tree rewiring strategy moves the tree root with the robot's position without discarding previous paths. The algorithm operates in a 2D environment with static obstacles, and the robot navigates while avoiding obstacles within a predefined radius to reach the goal positions. It's re-implemented for subsequent goals and obstacles.
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -63,6 +63,7 @@ This project implements a real-time path-planning algorithm using RRT and varian
 
 * ```Moving Red Hexagon``` - Moving goal location
 * ```Blue Cross``` - Current Robot location
+* ```Green Line``` - Tree structure with rewiring
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
